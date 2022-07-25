@@ -1,0 +1,19 @@
+.foot{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.signature{
+    padding-top: 1vh;
+    text-align: center;
+    font-style: italic;
+}

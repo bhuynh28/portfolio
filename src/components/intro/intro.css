@@ -1,6 +1,6 @@
 .i{
     display: flex;
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -43,9 +43,13 @@
 }
 
 @keyframes move {
-    100% {
+    50% {
         transform: translateY(-50px);
     }
+    100% {
+        transform: translateY(-100px);
+    }
+    
 }
 
 .i-title-item{
@@ -56,4 +60,11 @@
     background-color: white;
     display: flex;
     align-items: center;
+}
+
+.i-img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    padding-top: 2%;
 }

@@ -1,0 +1,46 @@
+.header{
+    height: 6vh;
+    width: 100vw;
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 95%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.name{
+    font-style: italic;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+}
+
+.home{
+    text-decoration: none;
+    padding-right: 1vw;
+    font-style: italic;
+}
+
+.projects{
+    text-decoration: none;
+    padding-right: 1vw;
+    font-style: italic;
+}
+
+.about{
+    text-decoration: none;
+    padding-right: 1vw;
+    font-style: italic;
+}
+
+.resume{
+    text-decoration: none;
+    font-style: italic;
+}
