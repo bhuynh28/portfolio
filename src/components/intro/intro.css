@@ -1,7 +1,16 @@
 .i{
     display: flex;
-    height: 100%;
-
+    flex-direction: row;
+    height: 80vh;
+    font-family: 'Kanit', sans-serif;
+    width: 90vw;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .i-left{
@@ -13,6 +22,9 @@
 
 .i-right{
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .i-left-wrapper{

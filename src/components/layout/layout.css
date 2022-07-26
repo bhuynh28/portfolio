@@ -1,6 +1,9 @@
 .header{
-    height: 6vh;
-    width: 100vw;
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-bar{
@@ -8,39 +11,47 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 95%;
+    height: 100%;
+    width: 70vw;
     padding-left: 1vw;
     padding-right: 1vw;
+    background-color: #e0e0e0;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .name{
-    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
     cursor: pointer;
+    color: black;
 }
 
 .navbar{
     display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
 }
 
 .home{
     text-decoration: none;
     padding-right: 1vw;
-    font-style: italic;
+    color: black;
 }
 
 .projects{
     text-decoration: none;
     padding-right: 1vw;
-    font-style: italic;
+    color: black;
 }
 
 .about{
     text-decoration: none;
     padding-right: 1vw;
-    font-style: italic;
+    color: black;
 }
 
 .resume{
     text-decoration: none;
-    font-style: italic;
+    color: black;
 }

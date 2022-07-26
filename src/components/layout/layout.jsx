@@ -21,22 +21,20 @@ function Layout() {
             share across all the pages on your site, like navigation. */}
         <div className="header" ref={ref}>
             <div className="header-bar">
-                <div className="name" onClick={handleOnClick}>Brian.</div>
+                <div className="name" onClick={handleOnClick}>BRIAN.</div>
                 <nav className="navbar">
-                <Link className="home" to="/">Home</Link>
-                <Link className="projects" to="/projects">Projects</Link>
-                <Link className="about" to="./about">About</Link>
-                <Link className="resume" to="./resume">Resume</Link>
+                <Link className="home" to="/">HOME</Link>
+                <Link className="projects" to="/projects">PROJECTS</Link>
+                <Link className="about" to="./about">ABOUT</Link>
+                <Link className="resume" to="./resume">RESUME</Link>
                 </nav>
             </div>
-    
-            <hr style={{}}/>
         </div>
   
         {/* An <Outlet> renders whatever child route is currently active,
             so you can think about this <Outlet> as a placeholder for
             the child routes we defined above. */}
-        <div style={{height: '84vh'}}>
+        <div style={{}}>
             <Outlet />
         </div>
         <Footer></Footer>

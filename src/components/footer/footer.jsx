@@ -10,8 +10,8 @@ const Footer = () => {
                 <SocialIcon url="mailto:bhuynh58@gmail.com" target="_blank" rel="noopener noreferrer" style={{ height: 30, width: 30 }}/>
             </div>
             <div className="signature">
-                developed by brian huynh<br/>
-                2022 ❤
+                © 2022 | BRIAN HUYNH | ALL RIGHTS RESERVED<br/>
+                ❤
             </div>
         </div>
     )

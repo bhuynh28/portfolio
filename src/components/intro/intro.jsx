@@ -16,9 +16,9 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="i-desc">
-                        As of March 2022, I graduated from UC Davis with a Bachelor of Science degree in Computer Science and Engineering.
-                        I strive to be able to develop and design efficient software for any purpose, while specializing more in web and mobile applications.
-                        Please feel free to contact me through any of the platforms below.
+                        As of March 2022, I am a UC Davis graduate with a Bachelor of Science degree in Computer Science and Engineering.
+                        I strive to develop and design efficient/effective software for any purpose, while specializing more in web and mobile applications.
+                        Please feel free to contact me through any of the platforms at the bottom of the page.
                     </div>
                 </div>
             </div>
