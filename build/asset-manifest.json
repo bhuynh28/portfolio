@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d30f6085.chunk.css",
-    "main.js": "/static/js/main.2c89fb93.chunk.js",
-    "main.js.map": "/static/js/main.2c89fb93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9412c5a0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9412c5a0.js.map",
-    "static/js/2.d351da5e.chunk.js": "/static/js/2.d351da5e.chunk.js",
-    "static/js/2.d351da5e.chunk.js.map": "/static/js/2.d351da5e.chunk.js.map",
-    "ddecc7f836da38734bef0d3d2235b938.js": "/ddecc7f836da38734bef0d3d2235b938.js",
-    "ddecc7f836da38734bef0d3d2235b938.js.LICENSE.txt": "/ddecc7f836da38734bef0d3d2235b938.js.LICENSE.txt",
+    "main.css": "/static/css/main.9cc0d92b.css",
+    "main.js": "/static/js/main.67016e5f.js",
+    "static/media/me.jpg": "/static/media/me.172b63d7a7a689fea4cc.jpg",
+    "static/media/fanalyze1.PNG": "/static/media/fanalyze1.a354ccd63fbb1d94625c.PNG",
+    "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/davisLogo.png": "/static/media/davisLogo.edd05069ea57a6ccc185.png",
+    "static/media/fanalyze5.PNG": "/static/media/fanalyze5.a05d1f837ad911e25f66.PNG",
+    "static/media/fanalyze3.PNG": "/static/media/fanalyze3.e7a6c5d03740da913cde.PNG",
+    "static/media/fanalyze2.PNG": "/static/media/fanalyze2.6846fbd69bc614b414c5.PNG",
+    "static/media/fanalyze4.PNG": "/static/media/fanalyze4.df2e8ed2f951fde263ed.PNG",
+    "static/media/resume.pdf": "/static/media/resume.cf7577a581d3c57540b9.pdf",
+    "static/media/fanalyze_icon.png": "/static/media/fanalyze_icon.26b3cc42175119c051ae.png",
     "index.html": "/index.html",
-    "static/css/main.d30f6085.chunk.css.map": "/static/css/main.d30f6085.chunk.css.map",
-    "static/js/2.d351da5e.chunk.js.LICENSE.txt": "/static/js/2.d351da5e.chunk.js.LICENSE.txt",
-    "static/media/me.172b63d7.jpg": "/static/media/me.172b63d7.jpg",
-    "static/media/resume.cf7577a5.pdf": "/static/media/resume.cf7577a5.pdf"
+    "main.9cc0d92b.css.map": "/static/css/main.9cc0d92b.css.map",
+    "main.67016e5f.js.map": "/static/js/main.67016e5f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9412c5a0.js",
-    "static/js/2.d351da5e.chunk.js",
-    "static/css/main.d30f6085.chunk.css",
-    "static/js/main.2c89fb93.chunk.js"
+    "static/css/main.9cc0d92b.css",
+    "static/js/main.67016e5f.js"
   ]
 }
