@@ -8,6 +8,7 @@ import fan3 from "../../img/fanalyze3.PNG";
 import fan4 from "../../img/fanalyze4.PNG";
 import fan5 from "../../img/fanalyze5.PNG";
 import fanIcon from "../../img/fanalyze_icon.png";
+import davisIcon from "../../img/davisLogo.png";
 
 const fanalyzeImages = [
     {
@@ -77,6 +78,23 @@ class Projects extends React.Component {
                     </div>
                     <div className="p1-right">
                         <ImageGallery {...properties}/>
+                    </div>
+                </div>
+                <div className="p2">
+                    <div className="p2-left">
+                        <div className="p2-left-wrapper">
+                            <div className="p2-school-wrapper">
+                                <img src={davisIcon} alt="" className="p2-davisIcon" />
+                                <h2 className="p2-school">School Projects</h2>
+                            </div>
+                            <h3 className="p2-date">UC Davis (2017-2022)</h3>
+                            <h4 className="p2-classes">Classes: Computer Architecture, Web Development, Software Engineering, Computer Algorithms, and more</h4>
+                            <div className="p2-desc">
+                                This section is a work in progress!
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p2-right">
                     </div>
                 </div>
             </div>

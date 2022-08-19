@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import Projects from "./components/projects/projects";
 import Resume from "./components/resume/resume";
 import Nothing from "./components/nothing/nothing";
+import Chat from "./components/chat/chat";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="projects" element={<Projects />} />
           <Route path="about" element={<About />} />
           <Route path="resume" element={<Resume />} />
+          <Route path="chat" element={<Chat />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit

@@ -21,12 +21,13 @@ function Layout() {
             share across all the pages on your site, like navigation. */}
         <div className="header" ref={ref}>
             <div className="header-bar">
-                <div className="name" onClick={handleOnClick}>BRIAN.</div>
+                <div className="name" onClick={handleOnClick}>BRIAN HUYNH</div>
                 <nav className="navbar">
                 <Link className="home" to="/">HOME</Link>
                 <Link className="projects" to="/projects">PROJECTS</Link>
                 <Link className="about" to="./about">ABOUT</Link>
                 <Link className="resume" to="./resume">RESUME</Link>
+                <Link className="chat" to="./chat">CHAT</Link>
                 </nav>
             </div>
         </div>

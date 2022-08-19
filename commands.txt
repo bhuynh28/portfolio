@@ -1,1 +1,5 @@
+push to build repository to automitcally update website
 git subtree push --prefix=build https://github.com/bhuynh28/portfolio-build.git main
+
+update all react dependencies
+yarn upgrade-interactive --latest

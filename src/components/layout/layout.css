@@ -4,6 +4,9 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header-bar{
@@ -25,6 +28,7 @@
     font-weight: 400;
     cursor: pointer;
     color: black;
+    font-style: italic;
 }
 
 .navbar{
@@ -52,6 +56,12 @@
 }
 
 .resume{
+    text-decoration: none;
+    padding-right: 1vw;
+    color: black;
+}
+
+.chat{
     text-decoration: none;
     color: black;
 }
