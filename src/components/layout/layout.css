@@ -43,8 +43,20 @@
     color: black;
 }
 
+.home-act{
+    text-decoration-line: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
 .projects{
     text-decoration: none;
+    padding-right: 1vw;
+    color: black;
+}
+
+.projects-act{
+    text-decoration: underline;
     padding-right: 1vw;
     color: black;
 }
@@ -55,13 +67,30 @@
     color: black;
 }
 
+.about-act{
+    text-decoration: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
 .resume{
     text-decoration: none;
     padding-right: 1vw;
     color: black;
 }
 
+.resume-act{
+    text-decoration: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
 .chat{
     text-decoration: none;
+    color: black;
+}
+
+.chat-act{
+    text-decoration: underline;
     color: black;
 }

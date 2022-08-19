@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useCallback, useEffect, useState, useRef } from "react";
-import { useNavigate, Outlet, Link } from "react-router-dom";
+import { useNavigate, Outlet, Link, NavLink } from "react-router-dom";
 import "./layout.css"
 import Footer from "../footer/footer"
 
@@ -23,11 +23,11 @@ function Layout() {
             <div className="header-bar">
                 <div className="name" onClick={handleOnClick}>BRIAN HUYNH</div>
                 <nav className="navbar">
-                <Link className="home" to="/">HOME</Link>
-                <Link className="projects" to="/projects">PROJECTS</Link>
-                <Link className="about" to="./about">ABOUT</Link>
-                <Link className="resume" to="./resume">RESUME</Link>
-                <Link className="chat" to="./chat">CHAT</Link>
+                <NavLink className={(navData) => (navData.isActive ? 'home-act' : 'home')} to="/">HOME</NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'projects-act' : 'projects')} to="/projects">PROJECTS</NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'about-act' : 'about')} to="./about">ABOUT</NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'resume-act' : 'resume')} to="./resume">RESUME</NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'chat-act' : 'chat')} to="./chat">CHAT</NavLink>
                 </nav>
             </div>
         </div>
