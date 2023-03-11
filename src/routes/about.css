@@ -1,0 +1,27 @@
+.about-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.about-header{
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 1vh;
+}
+
+.about-gallery{
+    margin-top: 0.2vh;
+    width: 70vw;
+    height: auto;
+}
+
+.about-paragraphs{
+    margin-top: 2vh;
+    width: 70vw;
+    margin-bottom: 4vh;
+    text-align: center;
+}

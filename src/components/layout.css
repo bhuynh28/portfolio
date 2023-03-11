@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 70vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: #e0e0e0;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.name{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    color: black;
+    font-style: italic;
+}
+
+.navbar{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    flex-direction: row;
+}
+
+.home{
+    text-decoration: none;
+    padding-right: 1vw;
+    color: black;
+}
+
+.home-act{
+    text-decoration-line: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
+.projects{
+    text-decoration: none;
+    padding-right: 1vw;
+    color: black;
+}
+
+.projects-act{
+    text-decoration: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
+.about{
+    text-decoration: none;
+    padding-right: 1vw;
+    color: black;
+}
+
+.about-act{
+    text-decoration: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
+.resume{
+    text-decoration: none;
+    padding-right: 1vw;
+    color: black;
+}
+
+.resume-act{
+    text-decoration: underline;
+    padding-right: 1vw;
+    color: black;
+}
+
+.chat{
+    text-decoration: none;
+    color: black;
+}
+
+.chat-act{
+    text-decoration: underline;
+    color: black;
+}

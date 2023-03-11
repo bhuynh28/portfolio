@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.arrow::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.28em;
+    vertical-align: 0.09em;
+    border-top: 0.42em solid;
+    border-right: 0.32em solid transparent;
+    border-left: 0.32em solid transparent;
+}
+
+/* content */
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 20px;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+}
+
+.content a {
+    color: #cc3852;
+    margin-right: 10px;
+}
